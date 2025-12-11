@@ -11,21 +11,21 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.fit.ui.screen.LoginScreen
-import com.example.fit.ui.screen.MyRunsScreen
-import com.example.fit.ui.screen.NewRunScreen
-import com.example.fit.ui.screen.RegisterScreen
-import com.example.fit.ui.screen.RunDetailScreen
-import com.example.fit.ui.theme.FITTheme
-import com.example.fit.ui.viewmodel.MyRunsViewModel
-import com.example.fit.ui.viewmodel.RunItem
+import com.example.simplefit.ui.screens.LoginScreen
+import com.example.simplefit.ui.screens.MyRunsScreen
+import com.example.simplefit.ui.screens.NewRunScreen
+import com.example.simplefit.ui.screens.RegisterScreen
+import com.example.simplefit.ui.screens.RunDetailScreen
+import com.example.simplefit.ui.theme.SimpleFitTheme
+import com.example.simplefit.viewmodel.MyRunsViewModel
+import com.example.simplefit.viewmodel.RunItem
 import com.google.gson.Gson
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            FITTheme {
+            SimpleFitTheme {
                 val navController = rememberNavController()
                 val gson = Gson()
 

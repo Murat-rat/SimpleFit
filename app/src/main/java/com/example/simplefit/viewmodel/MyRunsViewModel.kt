@@ -2,7 +2,7 @@ package com.example.simplefit.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.fit.data.remote.RetrofitClient
+import com.example.simplefit.data.remote.RetrofitClient
 import com.google.gson.annotations.SerializedName
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

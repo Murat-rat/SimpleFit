@@ -2,39 +2,17 @@ package com.example.simplefit.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.simplefit.data.model.MyRunsUiState
+import com.example.simplefit.data.model.RunItem
 import com.example.simplefit.data.remote.RetrofitClient
-import com.google.gson.annotations.SerializedName
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.collections.reversed
 
 // El modelo de datos
-data class RunItem(
-    val id: Int = 0,
-
-    @SerializedName("usuario")
-    val usuario: String,
-
-    @SerializedName("tiempo")
-    val tiempo: String,
-
-    @SerializedName("distancia")
-    val distancia: String,
-
-    @SerializedName("velocidad")
-    val velocidad: String,
-
-    @SerializedName("fecha")
-    val fecha: String
-)
-
-data class MyRunsUiState(
-    val runs: List<RunItem> = emptyList(),
-    val isLoading: Boolean = false,
-    val error: String? = null
-)
 
 class MyRunsViewModel : ViewModel() {
 

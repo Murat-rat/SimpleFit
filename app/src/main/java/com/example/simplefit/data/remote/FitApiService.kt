@@ -1,6 +1,6 @@
 package com.example.simplefit.data.remote
 
-import com.example.simplefit.viewmodel.RunItem
+import com.example.simplefit.data.model.RunItem
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

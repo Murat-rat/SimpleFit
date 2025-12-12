@@ -1,16 +1,11 @@
 package com.example.simplefit.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.simplefit.data.model.LoginUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-
-data class LoginUiState(
-    val usuario: String = "",
-    val contrasena: String = "",
-    val isLoading: Boolean = false
-)
 
 class LoginViewModel : ViewModel() {
     // StateFlow para manejar el estado de forma reactiva

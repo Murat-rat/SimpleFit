@@ -12,8 +12,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.simplefit.data.model.RunItem
 import com.example.simplefit.viewmodel.NewRunViewModel
-import com.example.simplefit.viewmodel.RunItem
 
 @Composable
 fun NewRunScreen(

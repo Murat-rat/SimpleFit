@@ -16,8 +16,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.simplefit.data.model.RegisterUiState
 import com.example.simplefit.viewmodel.RegisterViewModel
-import com.example.simplefit.viewmodel.RegisterUiState
 
 @Composable
 fun RegisterScreen(

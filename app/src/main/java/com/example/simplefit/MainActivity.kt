@@ -18,7 +18,7 @@ import com.example.simplefit.ui.screens.RegisterScreen
 import com.example.simplefit.ui.screens.RunDetailScreen
 import com.example.simplefit.ui.theme.SimpleFitTheme
 import com.example.simplefit.viewmodel.MyRunsViewModel
-import com.example.simplefit.viewmodel.RunItem
+import com.example.simplefit.data.model.RunItem
 import com.google.gson.Gson
 
 class MainActivity : ComponentActivity() {

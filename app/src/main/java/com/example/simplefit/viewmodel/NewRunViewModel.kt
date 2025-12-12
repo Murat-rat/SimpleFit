@@ -8,6 +8,8 @@ import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.simplefit.data.model.NewRunUiState
+import com.example.simplefit.data.model.RunItem
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -21,13 +23,6 @@ import java.util.Locale
 import kotlin.math.sqrt
 
 // Estado de la pantalla
-data class NewRunUiState(
-    val tiempoSegundos: Long = 0,
-    val distanciaMetros: Double = 0.0,
-    val pasos: Int = 0,
-    val isPaused: Boolean = false,
-    val isFinished: Boolean = false
-)
 
 // Usamos AndroidViewModel para tener acceso al Contexto (necesario para sensores)
 class NewRunViewModel(application: Application) : AndroidViewModel(application), SensorEventListener {

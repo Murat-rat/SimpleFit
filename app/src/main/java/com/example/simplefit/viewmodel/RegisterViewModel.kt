@@ -1,16 +1,12 @@
 package com.example.simplefit.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.simplefit.data.model.RegisterUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-data class RegisterUiState(
-    val usuario: String = "",
-    val contrasena: String = "",
-    val confirmarContrasena: String = ""
-)
 
 class RegisterViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(RegisterUiState())

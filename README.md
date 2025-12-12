@@ -64,13 +64,11 @@ Este proyecto ha sido desarrollado siguiendo estrictamente los lineamientos de l
 
 [Coloca al menos 3 (investiga como agregarlas y se vean en GitHub)]
 
-| Pantalla de Login |
+| Pantalla de Login | Pantalla de Inicio | Registro de Actividad |
 | :---: | :---: | :---: |
 | ![Inicio](https://github.com/Murat-rat/SimpleFit/blob/916029e0a31c23efe0491b79f9a9f7b618c6f306/Inicio_Sesion.jpg)   |
-| Pantalla de Inicio |
-|![Sensor](https://github.com/Murat-rat/SimpleFit/blob/916029e0a31c23efe0491b79f9a9f7b618c6f306/Pagina_Principal.jpg) | 
-| Registro de Actividad |
-|![CRUD](https://github.com/Murat-rat/SimpleFit/blob/916029e0a31c23efe0491b79f9a9f7b618c6f306/Recorridos.jpg)         |
+![Sensor](https://github.com/Murat-rat/SimpleFit/blob/916029e0a31c23efe0491b79f9a9f7b618c6f306/Pagina_Principal.jpg) | 
+![CRUD](https://github.com/Murat-rat/SimpleFit/blob/916029e0a31c23efe0491b79f9a9f7b618c6f306/Recorridos.jpg)         |
 
 
 
